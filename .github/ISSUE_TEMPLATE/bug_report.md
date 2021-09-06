@@ -2,7 +2,7 @@
 name: Bug Report
 about: Fix an error
 title: ''
-labels: ''
+labels: 'fix 🔧'
 assignees: ''
 
 ---
