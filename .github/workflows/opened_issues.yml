@@ -13,4 +13,4 @@ jobs:
         with:
           project: Automation testing
           column: To Do
-          repo-token: ${{ secrets.DASHBOARD_TOKEN }}
+          repo-token: ${{ secrets.GHPROJECT_TOKEN }}
