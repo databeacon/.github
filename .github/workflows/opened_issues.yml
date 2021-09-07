@@ -19,4 +19,4 @@ jobs:
       if: github.event.action == 'opened'
       with:
         project: 'https://github.com/orgs/databeacon/projects/5'
-        column: 'To do'
+        column_name: 'To do'
