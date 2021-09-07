@@ -15,4 +15,4 @@ jobs:
         with:
           project: Automation testing
           column: In Progress
-          repo-token: ${{ secrets.MARTIN_TOKEN }}
+          repo-token: ${{ secrets.DASHBOARD_TOKEN }}
