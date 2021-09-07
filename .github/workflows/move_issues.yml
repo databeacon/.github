@@ -1,7 +1,4 @@
-# This workflow uses actions that are not certified by GitHub.
-# They are provided by a third-party and are governed by
-# separate terms of service, privacy policy, and support
-# documentation.
+#https://github.com/marketplace/actions/automate-projects
 
 name: Move assigned card
 on:
@@ -11,8 +8,10 @@ jobs:
   move-assigned-card:
     runs-on: ubuntu-latest
     steps:
-      - uses: alex-page/github-project-automation-plus@v0.8.1
-        with:
-          project: Automation testing
-          column: In Progress
-          repo-token: ${{ secrets.DASHBOARD_TOKEN }}
+    
+      - name: move-issues-when-assigned
+        uses: docker://takanabe/github-actions-automate-projects:v0.0.2
+        env:
+          GITHUB_TOKEN: ${{ secrets.MARTIN_TOKEN }}
+          GITHUB_PROJECT_URL: https://github.com/orgs/databeacon/projects/5
+          GITHUB_PROJECT_COLUMN_NAME: In progress
