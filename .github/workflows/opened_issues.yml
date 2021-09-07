@@ -24,7 +24,7 @@ jobs:
         
     - name: Move issues when assigned to a person
       uses: srggrs/assign-one-project-github-action@1.2.1
-      if: github.event.action == 'opened'
+      if: github.event.action == 'assigned'
       with:
         project: 'https://github.com/orgs/databeacon/projects/5'
         column_name: 'In progress'
