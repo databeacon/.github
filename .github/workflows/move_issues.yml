@@ -1,17 +1,17 @@
-#https://github.com/marketplace/actions/automate-projects
-
 name: Move assigned card
 on:
   issues:
     types: [assigned]
 jobs:
-  move-assigned-card:
+  moveCard:
     runs-on: ubuntu-latest
     steps:
-    
-      - name: move-issues-when-assigned
-        uses: docker://takanabe/github-actions-automate-projects:latest
-        env:
-          GITHUB_TOKEN: ${{ secrets.MARTIN_TOKEN }}
-          GITHUB_PROJECT_URL: https://github.com/orgs/databeacon/projects/5
-          GITHUB_PROJECT_COLUMN_NAME: In progress
+      - name: Create or Update Project Card
+        uses: peter-evans/create-or-update-project-card@v1
+        with:
+          token: ${{ secrets.MARTIN_TOKEN }}
+          project-location: databeacon
+          project-name: Automation testing
+          column-name: In progress
+          
+          
