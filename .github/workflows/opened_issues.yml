@@ -7,7 +7,7 @@ on:
 #  pull_request_target:
 #    types: [opened, labeled]
 env:
-  MY_GITHUB_TOKEN: ${{ secrets.DASHBOARD_TOKEN }}
+  MY_GITHUB_TOKEN: ${{ secrets.MARTIN_TOKEN }}
 
 jobs:
   assign_one_project:
@@ -19,3 +19,4 @@ jobs:
       if: github.event.action == 'opened'
       with:
         project: 'https://github.com/orgs/databeacon/projects/5'
+        column: 'To do'
