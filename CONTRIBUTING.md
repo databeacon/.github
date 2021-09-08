@@ -1,7 +1,6 @@
 # Contributing on DataBeacon 📊🥓 repositories
 
-## Issues
-
+## Issues  ⭕️
 We use issues to track new features or bugs and it is the core of our workflow. 
 
 Issue field | Rules 
@@ -13,8 +12,7 @@ Projects | There is no need to asign the issue to a project. That is handled aut
 Milestones | No need to assign milestones. 
 Linked pull request | There is no need to link to an existing PR. We usually do it the other way around and assign issues to a PR once the later is created. 
 
-## Coding
-
+## Coding  🧑‍💻
 Clone 🧬 the repository (if you don't already have it) and create new branch to start working on issue.
 
 ### Branches  🌳
@@ -26,8 +24,7 @@ It's completely 🚫**forbidden**🚫 to work directly on main, to code new stuf
 - `feature-xxx`: To indicate the development of a new function. `xxx` Should be two or three words max sepparated by a dash (-). Example: `feature-get-json-coordinates`.
 - `fix-xxx`: To indicate that a bug is being fixed
 
-### Pull request
-
+### Pull request ⤴️
   1. When you want to commit something, push ⬆️ the new branch to the repository.
   2. Go to your repository and create a Pull Request (PR) in draft mode, you should link 🔗 the related issue with `#` followed by the issue's id.
 > linking issues with a newly created PR is mandatory and your responsability
@@ -53,8 +50,7 @@ We use Github Projects and Actions to track everything that is being done automa
   6. Approved PRs will automatically move to "Reviewer approved" in the Project Dashboard.
   7. When a PR branch is merged, the issue and PR card will get moved automatically to "Done" column (yay 🤩). Issue will also automatically close.
 
-## Labels 
-
+## Labels 🏷
 Label | Description
 ----- | -----------
 approved 👍🏻| It can be selected to start working on it
