@@ -53,11 +53,17 @@ We use Github Projects and Actions to track everything that is being done automa
   6. Approved PRs will automatically move to "Reviewer approved" in the Project Dashboard.
   7. When a PR branch is merged, the issue and PR card will get moved automatically to "Done" column (yay 🤩). Issue will also automatically close.
 
-## Labels  
+## Labels 
 
-- Approved:
-- Hold on: 
-- .... 
+Label | Description
+----- | -----------
+approved 👍🏻| It can be selected to start working on it
+easy 🐣 | Good for newcomers or if you just feel like take it easy today
+fix 🔧 | There is a bug, that needs fixing
+hold ✋🏻 | The issue or other parts of the repo are not ready for this just yet
+obsolete 💾 | The issue was long forgotten, it needs to closed or updated
+unclear 🤷🏻‍♀️ | The issue description needs work before taking action
+urgent 🚒 | This is a quite urgent issue!!
 
 ## New repositories 👨‍🍳
 
