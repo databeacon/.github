@@ -41,7 +41,7 @@ It's completely 🚫**forbidden**🚫 to work directly on main, to code new stuf
 
 Good news, there is nothing to do here! 
 
-The following description is just so you understand the process and the board status. **All project related stuff is managed automatically, as a developer you need to take no action**
+> The following description is just so you understand the process and the board status. **All project related stuff is managed automatically, as a developer you need to take no action**
 
 We use Github Projects and Actions to track everything that is being done automatically, [here is an example of what a Project Dashboard looks like](https://github.com/databeacon/.github/projects/2):  
 
