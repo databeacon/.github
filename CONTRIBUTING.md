@@ -26,13 +26,13 @@ It's completely 🚫**forbidden**🚫 to work directly on main, to code new stuf
 - `feature-xxx`: To indicate the development of a new function. `xxx` Should be two or three words max sepparated by a dash (-). Example: `feature-get-json-coordinates`.
 - `fix-xxx`: To indicate that a bug is being fixed
 
-####Pull request 
+### Pull request 
 
 When you want to commit something, push ⬆️ the new branch to the repository.
 
 Go to your repository and create a Pull Request (PR) in draft mode, you should link 🔗 the related issue with #.
 
-**linking issues with a newly created PR is mandatory**
+> **linking issues with a newly created PR is mandatory**
 
 Keep working on the issue(s) and commiting to the branch.
 
@@ -40,7 +40,7 @@ When your PR is ready, mark it as ready ✅ for review and assign reviewers.
 
 PR will get eventually approved (probably after a few requested changes 🤓)
 
-**managing your PR state (draft or ready for review) is part of your responsability as a developer, do not waste reviewers precius time on incomplete work**
+> **managing your PR state (draft or ready for review) is part of your responsability as a developer, do not waste reviewers precius time on incomplete work**
 
 A minimum of one approval is necesary, once done you are free to merge the PR into `main` and take a well deserved break. 
 
@@ -56,9 +56,9 @@ We use Github Projects and Actions to track everything that is being done automa
   2. When an issue is assigned will be moved to "In progress" column automatically. This means that that person is going to actively work on the issue.
   3. Any draft PR is moved automatically to the "In progress" column upon creation.
   4. When issues are #linked to a PR,the issue card will also show linked PR on the board and on the body of the issue.
-  8. When a PR is marked as 'ready to be reviewed' it is automatically moved to the "Review in progress" column.
-  9. Approved PRs will automatically move to "Reviewer approved" in the Project Dashboard.
-  10. When a PR branch is merged, the issue and PR card will get moved automatically to "Done" column (yay 🤩). Issue will also automatically close.
+  5. When a PR is marked as 'ready to be reviewed' it is automatically moved to the "Review in progress" column.
+  6. Approved PRs will automatically move to "Reviewer approved" in the Project Dashboard.
+  7. When a PR branch is merged, the issue and PR card will get moved automatically to "Done" column (yay 🤩). Issue will also automatically close.
 
 ## Labels  
 
