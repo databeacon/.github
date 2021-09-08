@@ -13,5 +13,5 @@ jobs:
           token: ${{ secrets.MARTIN_TOKEN }}
           project-location: databeacon
           project-name: Automation testing
-          column-name: Review in progress
+          column-name: In progress
           issue-number: ${{ github.event.number }}
