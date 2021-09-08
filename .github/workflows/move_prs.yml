@@ -1,4 +1,4 @@
-  
+#Trigger works
 name: Move assigned card
 on:
   pull_request_target:
