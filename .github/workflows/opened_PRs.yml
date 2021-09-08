@@ -5,7 +5,7 @@ on:
   pull_request_target:
     types: [opened]
 env:
-  MY_GITHUB_TOKEN: ${{ secrets.MARTIN_TOKEN }}
+  MY_GITHUB_TOKEN: ${{ secrets.GH_AUTOMATION_TOKEN }}
 
 jobs:
   prs_handler:
@@ -17,5 +17,5 @@ jobs:
       uses: srggrs/assign-one-project-github-action@1.2.1
       if: github.event.action == 'opened'
       with:
-        project: 'https://github.com/orgs/databeacon/projects/5'
+        project: '' #PROJECT LINK
         column_name: 'In progress'

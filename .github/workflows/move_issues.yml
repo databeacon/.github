@@ -9,9 +9,9 @@ jobs:
       - name: Create or Update Project Card
         uses: peter-evans/create-or-update-project-card@v1
         with:
-          token: ${{ secrets.MARTIN_TOKEN }}
+          token: ${{ secrets.GH_AUTOMATION_TOKEN }}
           project-location: databeacon
-          project-name: Automation testing
+          project-name: # PROJECT NAME
           column-name: In progress
           
           
