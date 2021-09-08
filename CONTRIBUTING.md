@@ -31,11 +31,11 @@ It's completely 🚫**forbidden**🚫 to work directly on main, to code new stuf
   1. When you want to commit something, push ⬆️ the new branch to the repository.
   2. Go to your repository and create a Pull Request (PR) in draft mode, you should link 🔗 the related issue with `#` followed by the issue's id.
 > linking issues with a newly created PR is mandatory and your responsability
-  5. Keep working on the issue(s) and commiting to the branch.
-  6. When your PR is ready, mark it as ready ✅ for review and assign reviewers.
-  7. PR will get eventually approved (probably after a few requested changes 🤓)
+  3. Keep working on the issue(s) and commiting to the branch.
+  4. When your PR is ready, mark it as ready ✅ for review and assign reviewers.
+  5. PR will get eventually approved (probably after a few requested changes 🤓)
 > managing your PR state (draft or ready for review) is part of your responsability as a developer, do not waste reviewers precius time on incomplete work
-  9. A minimum of one approval is necesary, once done you are free to merge the PR into `main` and take a well deserved break. 
+  6. A minimum of one approval is necesary, once done you are free to merge the PR into `main` and take a well deserved break. 
 
 ## Projects 📑
 
