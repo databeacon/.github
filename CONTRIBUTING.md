@@ -1,51 +1,23 @@
 # Contributing on DataBeacon 📊🥓 repositories
 
-## Workflow
-
-### Issues
+## Issues
 
 We use issues to track new features or bugs and it is the core of our workflow. 
 
-#### Title and description
+Issue field | Rules 
+----------- | -------------
+Title and description | Use a short clear title and a extensive, detailed description. A template is provided! **both title and description are mandatory**
+Assigness | There is no need to assign an issue upon creation. Issues can be created and assigned at any time, but every team must meet at least once per week to stay in sync. 
+Labels | Each issue has one or more labels asociated to it, they have a very special meaning. See section XXX **Setting lables is mandatory**
+Projects | There is no need to asign the issue to a project. That is handled automatically!! (See below)
+Milestones | No need to assign milestones. 
+Linked pull request | There is no need to link to an existing PR. We usually do it the other way around and assign issues to a PR once the later is created. 
 
-Use a short clear title and a extensive, detailed description. A template is provided!
-
-**both title and description are mandatory**
-
-#### Assigness 
-
-There is no need to assign an issue upon creation. 
-
-Issues can be created and assigned at any time, but every team must meet at least once per week to stay in sync. 
-
-
-#### Labels
-
-Each issue has one or more labels asociated to it, they have a very special meaning: 
-
-- Approved:
-- Hold on: 
-- .... 
-
-**Setting lables is mandatory**
-
-#### Projects 
-
-There is no need to asign the issue to a project. That is handled automatically!! (See below)
-
-#### Milestones
-
-No need to assign milestones. 
-
-#### Linked pull request
-
-There is no need to link to an existing PR. We usually do it the other way around and assign issues to a PR once the later is created. 
-
-### Coding
+## Coding
 
 Clone 🧬 the repository (if you don't already have it) and create new branch to start working on issue.
 
-#### Branches  🌳
+### Branches  🌳
 
 For us, `main` is what other people call `master`.
 
@@ -54,7 +26,7 @@ It's completely 🚫**forbidden**🚫 to work directly on main, to code new stuf
 - `feature-xxx`: To indicate the development of a new function. `xxx` Should be two or three words max sepparated by a dash (-). Example: `feature-get-json-coordinates`.
 - `fix-xxx`: To indicate that a bug is being fixed
 
-#### Pull request 
+####Pull request 
 
 When you want to commit something, push ⬆️ the new branch to the repository.
 
@@ -72,7 +44,7 @@ PR will get eventually approved (probably after a few requested changes 🤓)
 
 A minimum of one approval is necesary, once done you are free to merge the PR into `main` and take a well deserved break. 
 
-### Projects 📑
+## Projects 📑
 
 Good news, there is nothing to do here! 
 
@@ -88,7 +60,11 @@ We use Github Projects and Actions to track everything that is being done automa
   9. Approved PRs will automatically move to "Reviewer approved" in the Project Dashboard.
   10. When a PR branch is merged, the issue and PR card will get moved automatically to "Done" column (yay 🤩). Issue will also automatically close.
 
+## Labels  
 
+- Approved:
+- Hold on: 
+- .... 
 
 ## New repositories 👨‍🍳
 
