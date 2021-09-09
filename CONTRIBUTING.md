@@ -26,13 +26,23 @@ It's completely 🚫**forbidden**🚫 to work directly on main, to code new stuf
 
 ### Pull request ⤴️
   1. When you want to commit something, push ⬆️ the new branch to the repository.
-  2. Go to your repository and create a Pull Request (PR) in draft mode, you should link 🔗 the related issue with `#` followed by the issue's id.
-> linking issues with a newly created PR is mandatory and your responsability
-  3. Keep working on the issue(s) and commiting to the branch.
-  4. When your PR is ready, mark it as ready ✅ for review and assign reviewers.
+  2. Go to your repository and create a Pull Request (PR) in `draft` mode, you should link 🔗 the related issue with `#` followed by the issue's id.
+> linking issues with a newly created PR is mandatory and your responsability.
+  3. Keep working on the issue(s) and commiting to your branch.
+  4. When your PR is ready, mark it as `ready for review` ✅ and assign reviewers.
   5. PR will get eventually approved (probably after a few requested changes 🤓)
+  6. Every time a change is requested your branch should be set to `draft` 
+  7. When it is ready for a new review set it to `ready for review` 
 > managing your PR state (draft or ready for review) is part of your responsability as a developer, do not waste reviewers precius time on incomplete work
-  6. A minimum of one approval is necesary, once done you are free to merge the PR into `main` and take a well deserved break. 
+  6. A minimum of one approval is necesary, once done you are free to merge the PR into `main` and take a well deserved break.
+
+## Reviews
+
+Every now and then someone will ask you to review their PR. Merges are blocked until they got at least one successfull review. 
+
+> when you review code you are as responsable as the author, do not approve PR blindless, evaluate code complexity, be humble and give your honest opinion.
+
+**The only thing to remember is to set the PR to `draft` if you request changes** 
 
 ## Projects 📑
 
@@ -53,7 +63,7 @@ We use Github Projects and Actions to track everything that is being done automa
 ## Labels 🏷
 Label | Description
 ----- | -----------
-approved 👍🏻| It can be selected to start working on it
+clear 👍🏻| It can be selected to start working on it
 easy 🐣 | Good for newcomers or if you just feel like take it easy today
 fix 🔧 | There is a bug, that needs fixing
 hold ✋🏻 | The issue or other parts of the repo are not ready for this just yet
