@@ -5,12 +5,12 @@ We use issues to track new features or bugs and it is the core of our workflow.
 
 Issue field | Rules 
 ----------- | -------------
-Title and description | Use a short clear title and a extensive, detailed description. A template is provided! **both title and description are mandatory**
+Title and description | Use a short clear title and an extensive, detailed description. A template is provided! **both title and description are mandatory**
 Assigness | There is no need to assign an issue upon creation. Issues can be created and assigned at any time, but every team must meet at least once per week to stay in sync. 
-Labels | Each issue has one or more labels asociated to it, they have a very special meaning. See section XXX **Setting lables is mandatory**
+Labels | Each issue has one or more labels associated to it, they have a very special meaning. See section XXX **Setting labels is mandatory**
 Projects | There is no need to asign the issue to a project. That is handled automatically!! (See below)
 Milestones | No need to assign milestones. 
-Linked pull request | There is no need to link to an existing PR. We usually do it the other way around and assign issues to a PR once the later is created. 
+Linked pull request | There is no need to link to an existing PR. We usually do it the other way around and assign issues to a PR once the latter is created. 
 
 ## Coding  🧑‍💻
 Clone 🧬 the repository (if you don't already have it) and create new branch to start working on issue.
@@ -21,7 +21,7 @@ For us, `main` is what other people call `master`.
 
 It's completely 🚫**forbidden**🚫 to work directly on main, to code new stuff you must create a new branch. Depending on what it is for it should follow the next naming convention: 
 
-- `feature-xxx`: To indicate the development of a new function. `xxx` Should be two or three words max sepparated by a dash (-). Example: `feature-get-json-coordinates`.
+- `feature-xxx`: To indicate the development of a new function. `xxx` Should be two or three words max separated by a dash (-). Example: `feature-get-json-coordinates`.
 - `fix-xxx`: To indicate that a bug is being fixed
 
 ### Pull request ⤴️
@@ -33,14 +33,14 @@ It's completely 🚫**forbidden**🚫 to work directly on main, to code new stuf
   5. PR will get eventually approved (probably after a few requested changes 🤓)
   6. Every time a change is requested your branch should be set to `draft` 
   7. When it is ready for a new review set it to `ready for review` 
-> managing your PR state (draft or ready for review) is part of your responsability as a developer, do not waste reviewers precius time on incomplete work
-  6. A minimum of one approval is necesary, once done you are free to merge the PR into `main` and take a well deserved break.
+> managing your PR state (draft or ready for review) is part of your responsability as a developer, do not waste reviewers' precius time on incomplete work
+  6. A minimum of one approval is necessary, once done you are free to merge the PR into `main` and take a well deserved break.
 
 ## Reviews
 
-Every now and then someone will ask you to review their PR. Merges are blocked until they got at least one successfull review. 
+Every now and then someone will ask you to review their PR. Merges are blocked until they get at least one successful review. 
 
-> when you review code you are as responsable as the author, do not approve PR blindless, evaluate code complexity, be humble and give your honest opinion.
+> when you review code you are as responsible as the author, do not approve PR blindly, evaluate code complexity, be humble and give your honest opinion.
 
 **The only thing to remember is to set the PR to `draft` if you request changes** 
 
@@ -67,13 +67,13 @@ clear 👍🏻| It can be selected to start working on it
 easy 🐣 | Good for newcomers or if you just feel like take it easy today
 fix 🔧 | There is a bug, that needs fixing
 hold ✋🏻 | The issue or other parts of the repo are not ready for this just yet
-obsolete 💾 | The issue was long forgotten, it needs to closed or updated
+obsolete 💾 | The issue was long forgotten, it needs to be closed or updated
 unclear 🤷🏻‍♀️ | The issue description needs work before taking action
 urgent 🚒 | This is a quite urgent issue!!
 
 ## New repositories 👨‍🍳
 
-In general no new repos can be created without explicit aproval. 
+In general no new repos can be created without explicit approval. 
 
 Check list for new repos:
 
