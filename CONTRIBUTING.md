@@ -1,5 +1,20 @@
 # Contributing on DataBeacon 📊🥓 repositories
 
+## Team boards
+
+- Each team has a board: https://github.com/orgs/databeacon/projects
+- Each board has six columns:
+  - To Do: this issues are unasgned, it is your job to **keep an eye on them, coment and assign then to you if you think it is time to tackle them**
+  - Priority Lane: same as *To Do* but **you should prioritize them**, eg. do no start a issue form the *To Do* list if there is something else on the *Priority lane*
+  - In Progress: these are issues/PR that are assigned, **your job is to keep PRs in draft mode, and finish them**
+  - Review in progress : this are PRs that are waiting for review, **your job is to review those, provide coments and request changes** all PRs require an approval to merge. If you approve a PR you are as responsible as the author. 
+  - Review approved: waiting for merge, **usually the author will merge**
+  - Done: everything that has been done on current sprint, it is cleaned on every retrospective. 
+
+<img width="1671" alt="Capture2" src="https://user-images.githubusercontent.com/9478529/137620920-ed3bf9ca-f323-4a11-900b-3544e114bffb.PNG">
+
+
+
 ## Issues  ⭕️
 We use issues to track new features or bugs and it is the core of our workflow. 
 
