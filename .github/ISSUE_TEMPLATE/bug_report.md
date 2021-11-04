@@ -20,8 +20,12 @@ Steps to reproduce the behavior:
 **Expected behavior**
 A clear and concise description of what you expected to happen.
 
+**Link to Confluence**
+If there is a page in InGrid confluence link it here
+
 **Screenshots**
 If applicable, add screenshots to help explain your problem.
 
 **Additional context**
-Add any other context about the problem here.
+Add any other context about the problem here. 
+
