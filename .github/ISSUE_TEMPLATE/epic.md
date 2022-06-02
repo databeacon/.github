@@ -1,5 +1,5 @@
 ---
-name: EPIC
+name: 👾 EPIC
 about: Create a new EPIC
 title: 'EPIC - '
 labels: '👾 epic'
