@@ -1,20 +1,14 @@
 ---
-name: New Feature
-about: Suggest an idea for this project
-title: ''
-labels: ''
+name: Feature request
+about: Suggest an idea or enhancement for this project
+title: 'F - '
+labels: '💡 feature'
 assignees: ''
 
 ---
 
-**Description**
+### Description
 A clear and concise description of what the problem is. Ex. I'm always frustrated when [...]
 
-**Proposal**
-A clear and concise description of what you want to happen.
-
-**Link to Confluence**
-If there is a page in InGrid confluence link it here
-
-**Additional context**
+### Links, images or additional resources
 Add any other context or screenshots about the feature request here.
