@@ -4,20 +4,40 @@ name: Auto Assign (issues) to Project(s)
 on:
   issues:
     types: [opened]
-#  pull_request_target:
-#    types: [opened, labeled]
+
 env:
   MY_GITHUB_TOKEN: ${{ secrets.GH_AUTOMATION_TOKEN }}
+  status_draft: 📄 Draft
+  status_planned: 📆 Planned
+  label_epic: 👾 epic
 
 jobs:
-  issues_handler:
+  open_issue:
     runs-on: ubuntu-latest
     name: Issues Handling Tasks
-    
     steps:
     - name: Assign NEW issues to project
-      uses: srggrs/assign-one-project-github-action@1.2.1
+      uses: leonsteinhaeuser/project-beta-automations@v1.2.1
       if: github.event.action == 'opened'
       with:
-        project: '' #PROJECT LINK
-        column_name: 'To do'
+        gh_token: ${{ env.MY_GITHUB_TOKEN }}
+        organization: databeacon
+        project_id: 12
+        resource_node_id: ${{ github.event.issue.node_id }}
+        status_value: ${{ env.status_planned }}
+
+  open_epic:
+    runs-on: ubuntu-latest
+    name: Open EPIC
+    steps:
+    - name: Assign new EPIC to project
+      uses: leonsteinhaeuser/project-beta-automations@v1.2.1
+      if: github.event.action == 'opened' && (github.event.label.name == ${{ env.label_epic }})
+      with:
+        gh_token: ${{ env.MY_GITHUB_TOKEN }}
+        organization: databeacon
+        project_id: 12
+        resource_node_id: ${{ github.event.issue.node_id }}
+        status_value: ${{ env.status_planned }}
+
+
