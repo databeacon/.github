@@ -1,7 +1,7 @@
 ---
 name: 🧍🏽 User story
 about: Create a new user story nice to have in the product
-title: 'US - '
+title: 'USER - '
 labels: '🧍🏽 user story'
 assignees: ''
 
