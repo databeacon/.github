@@ -7,7 +7,7 @@ assignees: ''
 
 ---
 ### Title
->US - As a **type-of-user**, I want to **some-goal** so that **some-reason**
+>USER - As a **type-of-user**, I want to **some-goal** so that **some-reason**
 
 ### Description
 Describe the "what", "when" and "why". Avoid to talk about the "how".
